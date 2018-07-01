@@ -15,6 +15,7 @@
 		B92C2F2E20DF1AB700C9F2F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92C2F2C20DF1AB700C9F2F4 /* LaunchScreen.storyboard */; };
 		B95F365420E8153000EE24FC /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B95F365220E8153000EE24FC /* DataModel.xcdatamodeld */; };
 		B95F367720E8417C00EE24FC /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F367620E8417C00EE24FC /* CategoryViewController.swift */; };
+		B9F46B3C20E94D79004EB7BD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F46B3B20E94D79004EB7BD /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		B92C2F2F20DF1AB700C9F2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B95F365320E8153000EE24FC /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		B95F367620E8417C00EE24FC /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		B9F46B3B20E94D79004EB7BD /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		E2E5F9A23C7002F5653DCF6C /* Pods-Todo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Todo/Pods-Todo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B95F365220E8153000EE24FC /* DataModel.xcdatamodeld */,
+				B9F46B3B20E94D79004EB7BD /* Data.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B95F367720E8417C00EE24FC /* CategoryViewController.swift in Sources */,
+				B9F46B3C20E94D79004EB7BD /* Data.swift in Sources */,
 				B92C2F2620DF1AB600C9F2F4 /* TodoListViewController.swift in Sources */,
 				B95F365420E8153000EE24FC /* DataModel.xcdatamodeld in Sources */,
 				B92C2F2420DF1AB600C9F2F4 /* AppDelegate.swift in Sources */,
